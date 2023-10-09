@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(68, 65, 65);
+    color: white;
+}
+.main{
+    
+    padding : 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin-left:auto ; 
+    margin-right:auto; 
+    height: auto;
+    max-width: 350px;
+    
+    /*text-align: center;*/
+}
+
+   @media only screen and (min-width: 200px){
+        .btn{
+            
+            width: 300px;
+        }
+    }   
+
+.btn-incr{
+    margin-bottom:10px;
+    padding:10px;
+    background-color: rgb(87, 144, 250);
+}
+.btn-save{
+    margin-bottom:10px;
+    padding:10px;
+    background-color: rgb(52, 248, 134);
+}
