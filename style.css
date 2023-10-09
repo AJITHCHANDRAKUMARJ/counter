@@ -1,12 +1,20 @@
 body{
     text-align: center;
     margin-top: 50px;
-    background-color: rgb(68, 65, 65);
+    background-color: rgb(73, 119, 119);
     color: white;
 }
 .main{
     
-    padding : 50px;
+   /* padding : 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/   /*---v1-----*/
+    
+     height: 600px;
+    font-size: 30px;
+    padding : 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,12 +40,23 @@ body{
     }   
 
 .btn-incr{
-    margin-bottom:10px;
+   /* margin-bottom:10px;
+    padding:10px;
+    background-color: rgb(87, 144, 250);*/ /*----v1----*/
+     margin-bottom:10px;
     padding:10px;
     background-color: rgb(87, 144, 250);
+    color: white;
+    font-size: larger;
+    
 }
 .btn-save{
-    margin-bottom:10px;
+   /* margin-bottom:10px;
+    padding:10px;
+    background-color: rgb(52, 248, 134);*/ /*----v1-------*/
+     margin-bottom:10px;
     padding:10px;
     background-color: rgb(52, 248, 134);
+    color: white;
+    font-size: larger;
 }
